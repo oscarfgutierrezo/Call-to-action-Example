@@ -24,6 +24,7 @@ module.exports = {
         cta08: 'url("../img/cta-08a.png")',
         cta24: 'url("../img/cta-24.png")',
         cta25: 'url("../img/cta-25.png")',
+        cta27: 'url("../img/cta-27a.png")',
       },
     },
   },
