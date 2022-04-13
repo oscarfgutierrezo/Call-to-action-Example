@@ -522,40 +522,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 50%;
 }
 
-.left-0{
-  left: 0px;
-}
-
-.right-0{
-  right: 0px;
-}
-
-.right-1{
-  right: 0.25rem;
-}
-
-.right-1\/2{
-  right: 50%;
-}
-
 .top-0{
   top: 0px;
-}
-
-.-top-0{
-  top: -0px;
-}
-
-.-top-20{
-  top: -5rem;
 }
 
 .bottom-0{
   bottom: 0px;
 }
 
-.top-20{
-  top: 5rem;
+.right-0{
+  right: 0px;
+}
+
+.left-0{
+  left: 0px;
 }
 
 .mx-auto{
@@ -595,38 +575,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-auto{
-  height: auto;
-}
-
-.h-fit{
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-max{
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.h-\[80\]{
-  height: 80;
-}
-
-.h-\[\]{
-  height: ;
-}
-
-.h-3\/4{
-  height: 75%;
-}
-
-.h-4{
-  height: 1rem;
-}
-
 .h-4\/5{
   height: 80%;
 }
@@ -645,14 +593,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[63px\]{
   width: 63px;
-}
-
-.w-\[\]{
-  width: ;
-}
-
-.w-\[50\]{
-  width: 50;
 }
 
 .w-\[50vw\]{
@@ -743,40 +683,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 80rem;
 }
 
-.max-w-sm{
-  max-width: 24rem;
-}
-
-.max-w-md{
-  max-width: 28rem;
-}
-
 .max-w-lg{
   max-width: 32rem;
 }
 
-.max-w-\[50\]{
-  max-width: 50;
+.max-w-\[600px\]{
+  max-width: 600px;
 }
 
-.max-w-\[50vw\]{
-  max-width: 50vw;
+.max-w-\[\]{
+  max-width: ;
 }
 
-.max-w-\[50wv\]{
-  max-width: 50wv;
+.max-w-\[600\]{
+  max-width: 600;
 }
 
-.max-w-\[5vw\]{
-  max-width: 5vw;
+.max-w-\[450px\]{
+  max-width: 450px;
 }
 
-.max-w-\[5\]{
-  max-width: 5;
-}
-
-.max-w-\[50wx\]{
-  max-width: 50wx;
+.max-w-\[500px\]{
+  max-width: 500px;
 }
 
 .shrink-0{
@@ -793,8 +721,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-x-full{
-  --tw-translate-x: 100%;
+.translate-y-1\/2{
+  --tw-translate-y: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -820,6 +748,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-items-center{
+  justify-items: center;
 }
 
 .gap-10{
@@ -958,6 +890,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url("../img/cta-27a.png");
 }
 
+.bg-cta31{
+  background-image: url("../img/cta-31a.png");
+}
+
+.bg-cta32{
+  background-image: url("../img/cta-32c.png");
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -965,16 +905,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-left{
-  -o-object-position: left;
-     object-position: left;
-}
-
-.object-top{
-  -o-object-position: top;
-     object-position: top;
 }
 
 .object-left-top{
@@ -1175,10 +1105,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-.hover\:border-dashed:hover{
-  border-style: dashed;
 }
 
 .hover\:border-dark-violet:hover{
@@ -1433,6 +1359,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     left: -2.5rem;
   }
 
+  .lg\:bottom-0{
+    bottom: 0px;
+  }
+
   .lg\:-order-1{
     order: -1;
   }
@@ -1451,10 +1381,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:block{
     display: block;
-  }
-
-  .lg\:grid{
-    display: grid;
   }
 
   .lg\:hidden{
@@ -1517,10 +1443,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 5rem;
   }
 
-  .lg\:gap-10{
-    gap: 2.5rem;
-  }
-
   .lg\:rounded-xl{
     border-radius: 0.75rem;
   }
@@ -1557,9 +1479,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 5rem;
   }
 
-  .lg\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
+  .lg\:pb-20{
+    padding-bottom: 5rem;
   }
 
   .lg\:text-left{
@@ -1577,6 +1498,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .xl\:max-w-none{
+    max-width: none;
   }
 
   .xl\:flex-row{
